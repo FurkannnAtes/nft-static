@@ -219,8 +219,8 @@ const Profile = () => {
             <div className="flex items-center justify-center">
               {user?.firstname} {user?.lastname}
             </div>
-            <div className="flex items-center justify-center   font-semibold">
-              <span className="text-blue-500">@</span> {user?.email}
+            <div className="flex items-center justify-center  text-xl  font-semibold">
+              {user?.email}
             </div>
           </div>
         </div>
